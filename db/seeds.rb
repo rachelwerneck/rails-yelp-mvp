@@ -7,11 +7,11 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 puts "Creating restaurants..."
-fast_food = {name: 'McDonald', address: 'Flamengo', phone_numer: '552122252693', category: 'french'}
-pizza =  {name: 'Vespa', address: 'botafogo', phone_numer: '552122252694', category: 'italian'}
-burguer = {name: 'TTBurger', address: 'Ipanema', phone_numer: '552122252695', category: 'belgian'}
-ice_cream = {name: 'Gelato', address: 'Leblon', phone_numer: '552122252696', category: 'chinese'}
-desert = {name: 'Cookie', address: 'Gavea', phone_numer: '552122252697', category: 'japonese'}
+fast_food = {name: 'McDonald', address: 'Flamengo', phone_number: '552122252693', category: 'french'}
+pizza =  {name: 'Vespa', address: 'botafogo', phone_number: '552122252694', category: 'italian'}
+burguer = {name: 'TTBurger', address: 'Ipanema', phone_number: '552122252695', category: 'belgian'}
+ice_cream = {name: 'Gelato', address: 'Leblon', phone_number: '552122252696', category: 'chinese'}
+desert = {name: 'Cookie', address: 'Gavea', phone_number: '552122252697', category: 'japanese'}
 
 [fast_food, pizza, burguer, ice_cream, desert].each do |attributes|
   restaurant = Restaurant.create!(attributes)
